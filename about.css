@@ -7,7 +7,18 @@ body {
   overflow: hidden;
 }
 
+       body{
+        background: linear-gradient(-45deg, #e17c0f, #3f354d, #0fe127, #ef25a1);
+        background-size: 400% 400%;
+        animation: gradient 5s ease infinite;
+        height: 100vh;
+}
 
+        @keyframes gradient {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+}
 
 .grid-container {
   display: grid;
@@ -186,12 +197,6 @@ body {
             margin-left: -100px;
         }
 
-         li:nth-child(4) {
-            font-size: 30px;
-            text-align: center;
-            margin-left: -100px;
-            margin-top: 20vh;
-        }
         
         
     }
@@ -302,7 +307,7 @@ body {
     grid-column: 1 / 11;
     margin: 200;
     text-align: center;
-    margin-top: 5vh;
+    margin-top: -5vh;
     margin-left: 250px;
   }
 
@@ -405,7 +410,7 @@ body {
 
         img {
             /* border-radius: 10px; */
-            width: 150px;
+            width: 200px;
             height: auto;
             object-fit: cover;
             border-radius: 50%;
