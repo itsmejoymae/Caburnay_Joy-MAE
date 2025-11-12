@@ -4,7 +4,7 @@ body {
   font-family: 'Times New Roman', Times, serif;
   background: url('back.jfif');
   background-size: cover;
-  height:100 vh;
+   height: 100vh;
   overflow: hidden;
 }
 
